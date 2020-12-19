@@ -36,10 +36,6 @@ public class AIPaddle implements Paddle {
     
     
     public void move() {
-        int rand = (int)(Math.random() * 3) + 1 ;
-        if( rand == 1 && b1.yVel > 0)
-            y= y-10;
-        else
             y = b1.getY() - 40;
     }
     
